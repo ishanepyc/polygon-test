@@ -378,7 +378,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 //hide-show image instead of vimeo if video doesnt autoplay
 document.addEventListener('DOMContentLoaded', function () {
-    const autoplayThreshold = 5000; // Milliseconds to check if playing genuinely started
+    const autoplayThreshold = 1000; // Milliseconds to check if playing genuinely started
     const players = [];
     const autoplayStatus = new Array(5).fill(false); // Track autoplay success for each player
 
